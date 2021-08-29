@@ -1,16 +1,16 @@
 # micro-services-pattern
 the note for microservices pattern
 Pattern: Microservice Architecture
-► Decomposition patterns
-► The Database per Service pattern describes how each service has its own database in order to ensure loose coupling.
-► The API Gateway pattern defines how clients access the services in a microservice architecture.
-► The Client-side Discovery and Server-side Discovery patterns are used to route requests for a client to an available service instance in a microservice architecture.
+1. Decomposition patterns
+2. The Database per Service pattern describes how each service has its own database in order to ensure loose coupling.
+3. The API Gateway pattern defines how clients access the services in a microservice architecture.
+4. The Client-side Discovery and Server-side Discovery patterns are used to route requests for a client to an available service instance in a microservice architecture.
 The Messaging and Remote Procedure Invocation patterns are two different ways that services can communicate.
-► The Single Service per Host and Multiple Services per Host patterns are two different deployment strategies.
-► Cross-cutting concerns patterns: Microservice chassis pattern and Externalized configuration
-► Testing patterns: Service Component Test and Service Integration Contract Test
-► Circuit Breaker
-► Observability patterns:
+5. The Single Service per Host and Multiple Services per Host patterns are two different deployment strategies.
+6. Cross-cutting concerns patterns: Microservice chassis pattern and Externalized configuration
+7. Testing patterns: Service Component Test and Service Integration Contract Test
+8. Circuit Breaker
+9. Observability patterns:
 Log aggregation
 Application metrics
 Audit logging
