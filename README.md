@@ -1,7 +1,7 @@
 # micro-services-pattern
 the note for microservices pattern
 Pattern: Microservice Architecture
-1. Decomposition patterns
+1. Decomposition patterns --- by bussines need or subdomain
 2. The Database per Service pattern describes how each service has its own database in order to ensure loose coupling.
 3. The API Gateway pattern defines how clients access the services in a microservice architecture.
 4. The Client-side Discovery and Server-side Discovery patterns are used to route requests for a client to an available service instance in a microservice architecture.
@@ -21,3 +21,6 @@ Log deployments and changes
 UI patterns:
 ► Server-side page fragment composition
 ►Client-side UI composition
+
+
+security: autho/aws cognito -- access token
